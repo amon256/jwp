@@ -7,7 +7,11 @@
   <packaging>pom</packaging>
   <name>jwp</name>
   <description>jwp</description>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <modules>
     <module>jwp-core</module>
+    <module>jwp-webframework</module>
   </modules>
 </project>
