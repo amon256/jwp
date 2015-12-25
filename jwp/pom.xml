@@ -12,6 +12,7 @@
   </properties>
   <modules>
     <module>jwp-core</module>
-    <module>jwp-webframework</module>
+    <module>jwp-webbase</module>
+    <module>jwp-webclient</module>
   </modules>
 </project>
