@@ -64,9 +64,11 @@
 		<property name="menuFile" value="classpath*:permission/menus.xml"/>
 	</bean>
 	
+	<!-- 文件上传 -->
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
+	<!-- jsp视图 -->
  	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="order" value="1" />
+		<property name="order" value="0" />
 		<property name="cache" value="false" />
 		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp" />
