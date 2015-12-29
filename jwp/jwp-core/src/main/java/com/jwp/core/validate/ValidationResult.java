@@ -15,6 +15,11 @@ public class ValidationResult {
 	private String type;
 	
 	/**
+	 * 字段
+	 */
+	private String field;
+	
+	/**
 	 * 字段名
 	 */
 	private String fieldName;
@@ -65,5 +70,13 @@ public class ValidationResult {
 
 	public void setType(String type) {
 		this.type = type;
+	}
+
+	public String getField() {
+		return field;
+	}
+
+	public void setField(String field) {
+		this.field = field;
 	}
 }

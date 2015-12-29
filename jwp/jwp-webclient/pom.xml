@@ -42,6 +42,7 @@
 				<configuration>
 					<webApp>
 						<contextPath>/jwp</contextPath>
+						<defaultsDescriptor>src/main/resources/webdefault.xml</defaultsDescriptor>
 					</webApp>
 					<scanIntervalSeconds>1</scanIntervalSeconds>
 					<connectors>

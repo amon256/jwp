@@ -10,13 +10,14 @@ request.setAttribute("ctx", ctx);
 <link rel="shortcut icon" href="${ctx }/favicon.ico">
 <link href="${ctx }/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="${ctx }/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-<link href="${ctx }/adminLTE/css/AdminLTE.min.css" rel="stylesheet">
-<link href="${ctx }/adminLTE/css/skins/skin-blue.min.css" rel="stylesheet">
-<link rel="stylesheet" href="${ctx }/adminLTE/css/font-awesome.min.css">
-<link rel="stylesheet" href="${ctx }/adminLTE/css/ionicons.min.css">
+<link href="${ctx }/plugins/bootstrap-table/bootstrap-table.css" rel="stylesheet">
 <script type="text/javascript" src="${ctx }/jQuery/jQuery-2.1.4.min.js"></script>
-<script type="text/javascript" src="${ctx }/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="${ctx }/adminLTE/js/app.min.js"></script>
+<script type="text/javascript" src="${ctx }/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="${ctx }/plugins/bootstrap-table/bootstrap-table.js"></script>
+<script type="text/javascript" src="${ctx }/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+<script type="text/javascript" src="${ctx }/artDialog/artDialog.js?skin=simple"></script>
+<script type="text/javascript" src="${ctx }/artDialog//plugins/iframeTools.js"></script>
+<script type="text/javascript" src="${ctx }/commons/common.js"></script>
 <script type="text/javascript">
-	var ctx = '${ctx }';
+	var webCtx = '${ctx }';
 </script>

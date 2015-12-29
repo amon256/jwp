@@ -34,6 +34,7 @@ public class Validation {
 				if(!rule.validate(bean, value)){
 					//校验不通过
 					ValidationResult result = new ValidationResult(false);
+					result.setField(field);
 					result.setFieldName(fieldName);
 					result.setType(rule.type());
 					result.setMessage(rule.getErrorMessage());

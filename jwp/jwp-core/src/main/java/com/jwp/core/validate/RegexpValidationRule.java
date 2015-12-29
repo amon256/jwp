@@ -3,6 +3,8 @@
  */
 package com.jwp.core.validate;
 
+import org.apache.commons.lang.StringUtils;
+
 /**
  * @author fengmengyue
  *
@@ -22,10 +24,10 @@ public class RegexpValidationRule implements ValidationRule {
 
 	@Override
 	public boolean validate(Object bean, Object value) {
-		if(value != null && (value instanceof String)){
+		if(value != null && (value instanceof String) && StringUtils.isNotEmpty(value.toString().trim())){
 			return value.toString().matches(regexp);
 		}
-		return false;
+		return true;
 	}
 
 	@Override

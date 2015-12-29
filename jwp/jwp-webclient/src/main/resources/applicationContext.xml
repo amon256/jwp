@@ -18,7 +18,7 @@
 		<!-- 驱动 -->
 		<property name="driverClassName" value="org.sqlite.JDBC" />
 		<!-- 连接数初始连接数 --> 
-		<property name="url" value="jdbc:sqlite:UpgradeKit.db" />
+		<property name="url" value="jdbc:sqlite:database.sqlite" />
 	</bean>
 	<!-- JPA 实体管理工厂 -->
 	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" lazy-init="false">
